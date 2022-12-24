@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Steps to run
+1.bundle install
+2.rails generate model User email:string password_digest:string --force
+3.rails db:migrate
+4.rails s
+open http://127.0.0.1:3000 in broweser
